@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Imperial+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background: cornflowerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid dodgerblue;
+    height: 20px;
+    padding: 10px;
+    font-size: 18px;
+    flex-direction: column;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #000;
+    margin-bottom: 15px;
+}
+
+form button {
+    width: 100%;
+    background: darkorange;
+    color: #fff;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 2px 2px 2px #000;
+    font-size: 22px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    border: none;
+}
+
+form button:hover{
+    opacity: 0.5;
+}
+
+p {
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
